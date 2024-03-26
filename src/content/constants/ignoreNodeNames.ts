@@ -1,0 +1,15 @@
+export const ignoreNodeNames = [
+  'script',
+  'style',
+  'iframe',
+  'canvas',
+  'video',
+  'audio',
+  'textarea',
+  'embed',
+  'object',
+  'select',
+  'area',
+  'map',
+  'input',
+];
