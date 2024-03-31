@@ -2,7 +2,7 @@ chrome.runtime.onInstalled.addListener(() => {
   // コンテキストメニューに追加
   chrome.contextMenus.create({
     id: 'blowUp',
-    title: 'Click here to activate blow up.',
+    title: 'サイト炎上を有効にする',
     contexts: ['all'],
   });
 });
