@@ -40,6 +40,6 @@ export const searchTextNode = (node: ChildNode) => {
   // Elementを含む場合
   const newNode = document.createElement('span');
   const fireHtml = replaceFireHtml(node.nodeValue);
-  newNode.innerHTML = fireHtml
+  newNode.innerHTML = fireHtml;
   node.parentNode.replaceChild(newNode, node);
 };

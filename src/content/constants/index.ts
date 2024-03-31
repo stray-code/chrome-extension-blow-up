@@ -1,1 +1,1 @@
-export * from "./ignoreNodeNames"
+export * from './ignoreNodeNames';
