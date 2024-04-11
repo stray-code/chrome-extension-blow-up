@@ -9,7 +9,7 @@ chrome.runtime.onInstalled.addListener(() => {
 
 // コンテキストメニューがクリックされたら発火
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
-  if (!tab || !tab.id) {
+  if (!tab?.id) {
     return;
   }
 
